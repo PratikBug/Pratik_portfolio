@@ -86,7 +86,7 @@ I enjoy turning complex problems into simple, intuitive experiences and believe 
 
 ## Contact
 
-- **Email:** hello@pratikwarathe.dev
+- **Email:** pratikaieseci123@gmail.com
 - **LinkedIn:** https://in.linkedin.com/in/pratik-warathe
 - **GitHub:** https://github.com/PratikBug
 
