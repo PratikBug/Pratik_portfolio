@@ -1,81 +1,115 @@
-# Pratik_portfolio
+# Pratik Warathe — Portfolio
 
-👋 Hi, I’m Pratik Warathe
+Human-readable intro: this file doubles as the **content source** for the site. Sections below `## Name` through `## Contact` are parsed by `npm run parse-readme` (runs automatically before `dev` / `build`) into `data/portfolio.json`.
 
-🚀 Frontend / Software Engineer
-💻 Passionate about building scalable, accessible, and user-focused web applications
-📍 India
+## Name
 
-👨‍💻 About Me
+Pratik Warathe
 
-I’m a software engineer with hands-on experience in building modern web applications using JavaScript and React. I recently completed a 6-month Software Engineer Internship at Paytm (Paytm Money), where I worked on real production systems in a fast-paced fintech environment.
+## Role
 
-I enjoy turning complex problems into simple, intuitive user experiences and strongly believe in writing clean, maintainable, and accessible code.
+Frontend / Software Engineer
 
-🛠️ Tech Stack
+## Tagline
 
-Frontend
+I build scalable, accessible, and user-focused web applications — from polished UI to production-ready React.
 
-JavaScript (ES6+)
+## Location
 
-React.js
+India
 
-HTML5, CSS3
+## Bio
 
-Accessibility (WCAG, ARIA)
+I'm a software engineer with hands-on experience building modern web applications using JavaScript and React. I completed a six-month Software Engineer internship at Paytm (Paytm Money), working on real production systems in a fast-paced fintech environment.
 
-Responsive Design
+I enjoy turning complex problems into simple, intuitive experiences and believe in clean, maintainable, and accessible code.
 
-Tools & Practices
+## Skills
 
-Git & GitHub
+### Frontend
 
-REST APIs
+- JavaScript (ES6+)
+- React.js
+- HTML5 & CSS3
+- Accessibility (WCAG, ARIA)
+- Responsive & mobile-first design
 
-Performance Optimization
+### Tools & practices
 
-Cross-browser Compatibility
+- Git & GitHub
+- REST APIs
+- Performance optimization
+- Cross-browser compatibility
+- Agile / sprint delivery
 
-Agile / Sprint-based Development
+## Projects
 
-💼 Experience
-Software Engineer Intern – Paytm (Paytm Money)
+### Premier Schools Exhibition — Landing Page
 
-📆 6 Months
+**Description:** A marketing landing page with semantic HTML5, custom CSS, and vanilla JavaScript. Includes a dual-axis hero slider, continuous logo animations, and WCAG 2.2 AA–oriented patterns.
 
-Worked on customer-facing web features used at scale
+**Tech:** HTML5, CSS3, JavaScript, Accessibility
 
-Improved UI performance and code maintainability
+**Live:** https://example.com/premier-schools
 
-Collaborated with product managers, designers, and backend engineers
+**Repo:** https://github.com/example/premier-schools
 
-Followed best practices in clean code, accessibility, and testing
+### Paytm Money — Customer Web Features
 
-📌 Projects
-Premier Schools Exhibition – Landing Page
+**Description:** Contributed to customer-facing web features at scale, improving UI performance and maintainability while collaborating with product, design, and backend teams.
 
-Built using semantic HTML5, custom CSS, and vanilla JavaScript
+**Tech:** React, JavaScript, REST APIs, Performance
 
-WCAG 2.2 AA compliant with accessible sliders
+**Live:** https://www.paytmmoney.com
 
-Fully responsive and cross-browser compatible
+### React Dashboard Toolkit
 
-Implemented dual-axis hero slider and continuous logo animations
+**Description:** Internal-style dashboard UI with reusable charts, tables, and filters — built for clarity, keyboard use, and responsive layouts.
 
-Other Projects
+**Tech:** React, Vite, Tailwind CSS, Framer Motion
 
-React-based dashboards and UI components
+**Repo:** https://github.com/example/dashboard-toolkit
 
-Responsive websites with mobile-first design
+## Experience
 
-Fintech-focused frontend features
+### Software Engineer Intern — Paytm (Paytm Money) | 6 months
 
-(More projects coming soon 🚧)
+- Shipped and maintained customer-facing web features in a production fintech environment
+- Improved UI performance and long-term code maintainability
+- Partnered with PMs, designers, and backend engineers on end-to-end delivery
+- Applied accessibility, testing discipline, and clean-code practices in daily work
 
-📈 What I’m Looking For
+### Freelance & personal builds | Ongoing
 
-Frontend / Software Engineer roles
+- Responsive marketing sites and React-based UI components
+- Focus on semantic markup, performance budgets, and inclusive design
 
-React Developer Intern / SDE-1 opportunities
+## Contact
 
-Product-driven teams with strong engineering culture
+- **Email:** hello@pratikwarathe.dev
+- **LinkedIn:** https://www.linkedin.com/in/example-pratik
+- **GitHub:** https://github.com/example
+
+---
+
+## Run the portfolio site
+
+Use **Node.js 18+** (recommended: 20 LTS). If you use `nvm`, run `nvm use` in this repo (see `.nvmrc`).
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+Re-parse README only:
+
+```bash
+npm run parse-readme
+```
