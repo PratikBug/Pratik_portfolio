@@ -15,7 +15,6 @@ export function ExperienceSection() {
       <h2 id="experience-heading" className="font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
         Experience
       </h2>
-      <p className="mt-3 max-w-2xl text-ink-muted">Roles and impact — parsed from README into structured JSON.</p>
 
       <ol className="relative mt-12 space-y-10 border-l border-indigo-200/80 pl-8 dark:border-indigo-500/30">
         {portfolio.experience.map((job, i) => (

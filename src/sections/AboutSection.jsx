@@ -63,9 +63,6 @@ export function AboutSection() {
 
           <div className="glass rounded-2xl p-6 sm:p-8">
             <h3 className="font-display text-lg font-semibold text-ink">Skill emphasis</h3>
-            <p className="mt-2 text-sm text-ink-muted">
-              Animated bars are illustrative — derived from your stack for a quick visual read.
-            </p>
             <div className="mt-6 space-y-4">
               {flatSkills.slice(0, 6).map((label, i) => (
                 <SkillBar key={label} label={label} index={i} />

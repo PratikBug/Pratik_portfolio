@@ -32,15 +32,6 @@ export default {
         glass: '0 8px 32px rgb(15 23 42 / 0.08)',
         'glass-dark': '0 8px 32px rgb(0 0 0 / 0.35)',
       },
-      animation: {
-        float: 'float 6s ease-in-out infinite',
-      },
-      keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-12px)' },
-        },
-      },
     },
   },
   plugins: [],

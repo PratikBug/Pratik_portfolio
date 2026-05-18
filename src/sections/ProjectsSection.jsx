@@ -96,9 +96,6 @@ export function ProjectsSection() {
         <h2 id="projects-heading" className="font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           Projects
         </h2>
-        <p className="mt-3 text-ink-muted">
-          Selected work — descriptions and links are driven from your README-derived data file.
-        </p>
       </div>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {portfolio.projects.map((p, i) => (
