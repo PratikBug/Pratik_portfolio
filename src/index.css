@@ -13,12 +13,13 @@
 }
 
 .dark {
-  --surface: 15 23 42;
-  --surface-muted: 30 41 59;
-  --ink: 248 250 252;
-  --ink-muted: 148 163 184;
-  --accent: 129 140 248;
-  --accent-soft: 49 46 129;
+  /* Deep zinc base + teal accent (distinct from slate/indigo) */
+  --surface: 24 24 27;
+  --surface-muted: 9 9 11;
+  --ink: 244 244 245;
+  --ink-muted: 161 161 170;
+  --accent: 45 212 191;
+  --accent-soft: 19 78 74;
 }
 
 @layer base {
@@ -50,6 +51,6 @@
 /* Glass surface utility */
 @layer components {
   .glass {
-    @apply border border-white/40 bg-white/60 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/50 dark:shadow-glass-dark;
+    @apply border border-white/40 bg-white/60 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-zinc-900/55 dark:shadow-glass-dark;
   }
 }

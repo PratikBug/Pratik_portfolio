@@ -16,7 +16,7 @@ export function ExperienceSection() {
         Experience
       </h2>
 
-      <ol className="relative mt-12 space-y-10 border-l border-indigo-200/80 pl-8 dark:border-indigo-500/30">
+      <ol className="relative mt-12 space-y-10 border-l border-accent/35 pl-8 dark:border-accent/40">
         {portfolio.experience.map((job, i) => (
           <motion.li
             key={`${job.title}-${job.company}-${i}`}
@@ -27,16 +27,16 @@ export function ExperienceSection() {
             transition={{ duration: 0.45, delay: i * 0.08 }}
           >
             <span
-              className="absolute -left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-indigo-400 bg-white dark:border-indigo-300 dark:bg-slate-900"
+              className="absolute -left-[39px] top-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-accent bg-white dark:border-accent dark:bg-surface-muted"
               aria-hidden
             >
-              <span className="h-2 w-2 rounded-full bg-indigo-500" />
+              <span className="h-2 w-2 rounded-full bg-accent" />
             </span>
             <div className="glass rounded-2xl p-6 sm:p-8">
               <div className="flex flex-wrap items-baseline gap-2">
                 <h3 className="font-display text-lg font-semibold text-ink">{job.title}</h3>
                 {job.company && (
-                  <span className="text-sm font-medium text-indigo-600 dark:text-indigo-300">{job.company}</span>
+                  <span className="text-sm font-medium text-accent">{job.company}</span>
                 )}
                 {job.period && (
                   <span className="text-xs font-semibold uppercase tracking-wide text-ink-muted">{job.period}</span>

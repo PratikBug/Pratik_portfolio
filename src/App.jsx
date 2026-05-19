@@ -54,7 +54,6 @@ export default function App() {
           <Route path="/" element={<RoutedHome />} />
         </Routes>
       </BrowserRouter>
-      {/* Production-only Web Vitals on Vercel — no-op locally */}
       <SpeedInsights />
     </ThemeProvider>
   )

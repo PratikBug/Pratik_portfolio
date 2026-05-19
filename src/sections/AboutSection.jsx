@@ -14,7 +14,7 @@ function SkillBar({ label, index }) {
       </div>
       <div className="h-2 overflow-hidden rounded-full bg-ink/5 dark:bg-white/10">
         <motion.div
-          className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-cyan-400"
+          className="h-full rounded-full bg-gradient-to-r from-accent to-teal-300"
           initial={reduce ? false : { width: 0 }}
           whileInView={{ width: `${width}%` }}
           viewport={{ once: true }}
@@ -52,7 +52,7 @@ export function AboutSection() {
                 {group.items.map((item) => (
                   <li
                     key={item}
-                    className="rounded-full border border-indigo-500/20 bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-800 dark:border-indigo-400/20 dark:bg-indigo-500/15 dark:text-indigo-100"
+                    className="rounded-full border border-accent/25 bg-accent/10 px-3 py-1 text-xs font-medium text-ink dark:border-accent/30 dark:bg-accent/15"
                   >
                     {item}
                   </li>

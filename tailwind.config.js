@@ -26,11 +26,11 @@ export default {
         'mesh-light':
           'radial-gradient(at 40% 20%, rgb(199 210 254 / 0.35) 0px, transparent 50%), radial-gradient(at 80% 0%, rgb(165 243 252 / 0.25) 0px, transparent 45%), radial-gradient(at 0% 50%, rgb(251 207 232 / 0.3) 0px, transparent 50%)',
         'mesh-dark':
-          'radial-gradient(at 40% 20%, rgb(79 70 229 / 0.2) 0px, transparent 50%), radial-gradient(at 80% 0%, rgb(6 182 212 / 0.12) 0px, transparent 45%), radial-gradient(at 0% 50%, rgb(236 72 153 / 0.1) 0px, transparent 50%)',
+          'radial-gradient(at 42% 18%, rgb(45 212 191 / 0.14) 0px, transparent 52%), radial-gradient(at 82% 8%, rgb(167 139 250 / 0.07) 0px, transparent 46%), radial-gradient(at 0% 55%, rgb(56 189 248 / 0.06) 0px, transparent 48%)',
       },
       boxShadow: {
         glass: '0 8px 32px rgb(15 23 42 / 0.08)',
-        'glass-dark': '0 8px 32px rgb(0 0 0 / 0.35)',
+        'glass-dark': '0 8px 36px rgb(0 0 0 / 0.55)',
       },
     },
   },

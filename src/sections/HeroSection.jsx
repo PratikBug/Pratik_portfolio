@@ -32,7 +32,7 @@ export function HeroSection() {
           {portfolio.name}
         </motion.h1>
         <motion.p
-          className="mt-3 text-lg font-medium text-indigo-600 dark:text-indigo-300 sm:text-xl"
+          className="mt-3 text-lg font-medium text-accent sm:text-xl"
           initial={reduce ? false : { opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -55,7 +55,7 @@ export function HeroSection() {
         >
           <button
             type="button"
-            className="rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/25 transition hover:brightness-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+            className="rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition hover:brightness-110 dark:shadow-teal-500/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             onClick={() => scrollToSection('projects')}
           >
             View projects

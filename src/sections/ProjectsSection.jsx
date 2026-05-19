@@ -43,7 +43,7 @@ function ProjectCard({ project, index }) {
     >
       <div className="glass relative h-full overflow-hidden rounded-2xl p-6 transition-shadow duration-300 group-hover:shadow-lg dark:group-hover:shadow-glass-dark">
         <div
-          className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-gradient-to-br from-indigo-500/25 to-cyan-400/20 blur-2xl transition group-hover:opacity-100"
+          className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-gradient-to-br from-accent/25 to-teal-400/20 blur-2xl transition group-hover:opacity-100"
           aria-hidden
         />
         <h3 className="font-display text-xl font-semibold text-ink">{project.title}</h3>
