@@ -3,9 +3,17 @@ import portfolio from '@data/portfolio.json'
 import { AnimatedSection } from '@/components/AnimatedSection'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
 
+/** Wider bar = stronger emphasis. JS is intentionally above React. */
+function emphasisPercent(label, index) {
+  const lower = label.toLowerCase()
+  if (lower.includes('javascript')) return 92
+  if (lower.includes('react')) return 74
+  return 55 + ((index * 17) % 35)
+}
+
 function SkillBar({ label, index }) {
   const reduce = useReducedMotion()
-  const width = 55 + ((index * 17) % 35)
+  const width = emphasisPercent(label, index)
 
   return (
     <div className="space-y-2">

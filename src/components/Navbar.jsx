@@ -56,7 +56,7 @@ export function Navbar() {
             go('hero')
           }}
         >
-          Portfolio
+          PratikXDev
         </a>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">
