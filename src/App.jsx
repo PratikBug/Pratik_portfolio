@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { ThemeProvider } from '@/context/ThemeContext'
+import { IntroLoader } from '@/components/IntroLoader'
 import { PageTransition } from '@/components/PageTransition'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
@@ -49,11 +50,13 @@ function RoutedHome() {
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<RoutedHome />} />
-        </Routes>
-      </BrowserRouter>
+      <IntroLoader>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<RoutedHome />} />
+          </Routes>
+        </BrowserRouter>
+      </IntroLoader>
       <SpeedInsights />
     </ThemeProvider>
   )

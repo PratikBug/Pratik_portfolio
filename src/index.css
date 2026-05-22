@@ -54,3 +54,26 @@
     @apply border border-white/40 bg-white/60 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-zinc-900/55 dark:shadow-glass-dark;
   }
 }
+
+/* Intro splash: faint engineering grid — dark mode adjusts contrast */
+.intro-loader-grid {
+  background-image: linear-gradient(
+      rgb(var(--ink) / 0.038) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgb(var(--ink) / 0.038) 1px,
+      transparent 1px
+    );
+  background-size: 44px 44px;
+  mask-image: radial-gradient(
+    ellipse 70% 60% at 50% 45%,
+    black 25%,
+    transparent 72%
+  );
+}
+.dark .intro-loader-grid {
+  background-image: linear-gradient(rgb(var(--ink) / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--ink) / 0.06) 1px, transparent 1px);
+}
