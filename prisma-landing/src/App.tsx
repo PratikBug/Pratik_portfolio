@@ -1,10 +1,12 @@
+import { useEffect, useState } from 'react'
 import { HeroSection } from './sections/HeroSection'
 import { AboutSection } from './sections/AboutSection'
 import { ExperienceSection } from './sections/ExperienceSection'
 import { ProjectsSection } from './sections/ProjectsSection'
+import { AllProjects } from './pages/AllProjects'
 import { Reveal } from './components/Reveal'
 
-function App() {
+function Home() {
   return (
     <div className="min-h-screen bg-bg text-ink">
       <HeroSection />
@@ -67,6 +69,22 @@ function App() {
       </footer>
     </div>
   )
+}
+
+function useHashRoute() {
+  const [hash, setHash] = useState(() => window.location.hash)
+  useEffect(() => {
+    const onChange = () => setHash(window.location.hash)
+    window.addEventListener('hashchange', onChange)
+    return () => window.removeEventListener('hashchange', onChange)
+  }, [])
+  return hash
+}
+
+function App() {
+  const hash = useHashRoute()
+  const isProjectsRoute = hash.startsWith('#/projects')
+  return isProjectsRoute ? <AllProjects /> : <Home />
 }
 
 export default App
