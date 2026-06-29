@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm install --prefix prisma-landing",
+  "buildCommand": "npm run build --prefix prisma-landing",
+  "outputDirectory": "prisma-landing/dist"
+}
