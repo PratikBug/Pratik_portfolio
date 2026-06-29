@@ -42,7 +42,7 @@ export function ProjectRow({ project, index }: { project: Project; index: number
             rel="noreferrer"
             className="mt-5 inline-block meta text-ink-muted link-underline"
           >
-            View repository ↗
+            {project.link.includes('github.com') ? 'View repository ↗' : 'View live ↗'}
           </a>
         ) : null}
       </div>

@@ -18,6 +18,7 @@ export const PROJECTS: Project[] = [
     stack: 'React.js · Axios · UPI · REST APIs',
     metric: 'Millions',
     metricLabel: 'users enabled',
+    link: 'https://www.paytmmoney.com/stocks/funds',
     featured: true,
   },
   {
@@ -28,6 +29,7 @@ export const PROJECTS: Project[] = [
     stack: 'React Hooks · JSON APIs · Axios · Responsive',
     metric: 'Real-time',
     metricLabel: 'leverage & P&L',
+    link: 'https://www.paytmmoney.com/mtf/calculator',
     featured: true,
   },
   {
