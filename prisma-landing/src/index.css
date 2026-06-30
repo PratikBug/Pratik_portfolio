@@ -34,7 +34,7 @@
 }
 
 * {
-  font-family: var(--font-body);
+  box-sizing: border-box;
 }
 
 html {
@@ -44,19 +44,42 @@ html {
 body {
   background-color: var(--bg);
   color: var(--text);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 /* Utilities mapped to tokens */
 .font-display {
   font-family: var(--font-display);
+  letter-spacing: -0.02em;
 }
 .font-body {
   font-family: var(--font-body);
 }
 .font-mono {
   font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+}
+
+/* Hero headline — Fraunces at display optical size */
+.hero-headline {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0;
 }
 
 .text-accent {
