@@ -72,7 +72,7 @@ I enjoy turning complex problems into simple, intuitive experiences and believe 
 
 ## Experience
 
-### Software Engineer Intern — Paytm (Paytm Money) | 6 months
+### Software Engineer Intern — Paytm (Paytm Money)
 
 - Shipped and maintained customer-facing web features in a production fintech environment
 - Improved UI performance and long-term code maintainability
